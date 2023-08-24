@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'roboot', sans-serif;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Menu csss */
+.App-header {
+  background-image: url('./images/thai-aos-en-banner-hero-20160202.jpeg');
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navigation {
+  background-color: black;
+  min-height: 6vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mob-menu {
+  display: block;
+}
+
+.display {
+  display: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #adadad;
+  font-size: 1rem;
+  margin: 0.6rem 0;
+}
+
+.navigation a:hover {
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.4rem;
+  word-spacing: 0.5rem;
+  letter-spacing: 0.1rem;
+  margin: 16% 0;
+}
+
+.mob-menu ul {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.mob-menu ul li {
+  margin: 2rem 0;
+}
+
+.mob-menu ul li a {
+  color: #adadad;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.mob-menu ul li a:hover {
+  border-bottom: white 0.1rem solid;
+  color: white;
+  transition: background-color 0.5s ease;
+}
+
+.nav-mob {
+  cursor: pointer;
+  color: #444f52;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/* Content css */
+
+.content h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.content div {
+  float: left;
+  width: 60%;
+}
+
+.apple {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem 8rem;
+}
+
+.apple li {
+  margin: 0.5rem 0.5rem;
+}
+
+.box {
+  background-color: #f1f1f1;
+  width: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.box img {
+  width: 25.3vw;
+}
+
+.box p {
+  margin: .4rem 0;
+}
+
+.box:hover {
+  background-color: #d8d5d5;
+  color: #0974d8;
+}
+
+.acc img {
+  padding: 0rem 8.4rem;
+}
+
+.Access-Content {
+  position: absolute;
+  left: 38%;
+  word-spacing: 0.1rem;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.Access-Content h1 {
+  margin: 1rem 0;
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.Access-Content p {
+  margin: 1rem 0;
+}
+
+.Access-Content a {
+  color: #0974d8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Access-Content a:hover {
+  color: #0974d8a4;
+}
+
+/* footer css */
+.footer{
+  margin-top: 33rem;
+  background-color: #f1f1f1;
+}
+.footer-content{
+  padding: 1.8rem 8.4rem;
+  font-size: 0.75rem;
+  color: #9dacad;
+}
+.footer-content hr{
+  margin: 1.2rem 0;
+}
+.footer-content a{
+  color: #444f52;
+  font-weight: bold;
+}
+.footer-content a:hover{
+  color: #9dacad;
+}
+.co{
+  color: #3f3f3f;
+  font-size: 1.2rem;
+  margin: 0 0.4rem;
+}
+.font-size {
+  font-size: 0.9rem;
+}
+.sub-footer {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-footer ul li{
+  margin: 1rem 0;
+}
+.sub-footer ul li b{
+  color: #3f3f3f;
+}
+.sub-footer ul li a{
+  color: #9dacad;
+  cursor: pointer;
+}
+.sub-footer ul li a:hover{
+  text-decoration:underline;
+}
+.margin {
+  padding-top: 2rem;
+}
+.anchor-foot a{
+  cursor: pointer;
+  color: #67b3fa;
+}
+.anchor-foot a:hover{
+  text-decoration: underline;
+  color: #67b3fa;
+}
+.sub-footer-content{
+  display: flex;
+  justify-content: space-between;
+}
+.sub-footer-content ul {
+  display: flex;
+
+}
+.sub-footer-content ul li a{
+  color: #9dacad;
+  margin: 0 0.3rem;
+  word-spacing: 0.1rem;
+  cursor: pointer;
+}
+.sub-footer-content ul li a:hover{
+  text-decoration: underline;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header {
+    background-position: center;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .comp-header {
+    display: none;
+  }
+  .sub-footer-content{
+    display: block;
+  }
+  .sub-footer-content ul{
+    display: block;
+    margin: 1rem 0;
+  }
+  .sub-footer-content ul li{
+    margin: 0.5rem 0;
+  }
+  .display-line{
+    display: none;
+  }
+  .heading {
+    margin: 50% 0;
+    font-size: 1.8rem;
+  }
+
+  .apple {
+    display: block;
+    padding: 0;
+  }
+
+  .box img {
+    width: 60vw;
+  }
+
+  .acc {
+    display: none;
+  }
+  .sub-footer{
+    display: block;
+    text-align: center;
+  }
+  .footer-content{
+    padding: 0.5rem 0.3rem;
+    text-align: center;
+
+  }
+  .footer{
+    margin-top: 3rem;
+  }
+}
